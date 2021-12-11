@@ -16,11 +16,11 @@ pipeline {
             }
         }
 
-
-        stage ('Deployment Stage') {
-            steps {
-                    sh './mvn deploy'
-            }
-        }
+//
+//         stage ('Deployment Stage') {
+//             steps {
+//                     sh './mvn deploy'
+//             }
+//         }
     }
 }
